@@ -1,16 +1,52 @@
-# loja_canecas
+# Loja de Canecas - Aplicação Flutter
 
-A new Flutter project.
+Aplicação desenvolvida em Flutter para gerenciamento de **Clientes** e **Produtos**, consumindo uma API REST.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## INTEGRANTES DO GRUPO
+- Yulla Mendonça  
+- Natália Aparecida Fonseca
+- Renan Antonialli
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## TECNOLOGIAS UTILIZADAS
+- Flutter
+- Dart
+- Provider
+- API REST (Node.js + Express)
+- MySQL (ou seu banco usado)
+- Git & GitHub
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## FUNCIONALIDADES
+
+### Clientes
+- Listar clientes
+- Cadastrar cliente
+- Editar cliente
+- Excluir cliente
+
+### Produtos
+- Listar produtos
+- Cadastrar produto
+- Editar produto
+- Excluir produto
+
+---
+
+## COMO EXECUTAR O PROJETO
+
+### Pré-requisitos
+Antes de executar, você precisa ter instalado:
+- Flutter
+- Git
+- Node.js (para rodar a API)
+
+Verifique com:
+```bash
+flutter --version
+node --version
+git --version
