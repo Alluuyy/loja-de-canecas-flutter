@@ -24,30 +24,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Loja de Canecas',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: const HomePage(),
     );
   }
 }
-
-theme: ThemeData(
-  primarySwatch: Colors.indigo,
-  scaffoldBackgroundColor: Colors.grey[100],
-  appBarTheme: const AppBarTheme(
-    centerTitle: true,
-    elevation: 2,
-  ),
-  inputDecorationTheme: InputDecorationTheme(
-    border: OutlineInputBorder(
-      borderRadius: BorderRadius.circular(10),
-    ),
-  ),
-  elevatedButtonTheme: ElevatedButtonThemeData(
-    style: ElevatedButton.styleFrom(
-      padding: const EdgeInsets.symmetric(vertical: 14),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(10),
-      ),
-    ),
-  ),
-),
